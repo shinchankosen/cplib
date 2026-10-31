@@ -84,6 +84,11 @@
 - [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
 - [Min of Mod of Linear](src/math/min_of_mod_of_linear.hpp)
 
+## 幾何
+
+- [幾何の基本](src/geometry/base.hpp)
+- [幾何の諸関数](src/geometry/etc.hpp)
+
 ## 文字列
 
 - [ローリングハッシュ](src/string/rolling_hash.hpp)
