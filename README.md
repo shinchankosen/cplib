@@ -83,11 +83,6 @@
 - [分数](src/math/fraction.hpp)
 - [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
 - [Min of Mod of Linear](src/math/min_of_mod_of_linear.hpp)
-- [Monge最短路](src/algorithm/larsch.hpp)
-- [Min Plus Convolution](src/algorithm/min_plus_convolution.hpp)
-- [Concaveなmin plus](src/algorithm/min_plus_concave.hpp)
-- [Rollback Mo](src/algorithm/rollback_mo.hpp)
-- [3次元Mo](src/algorithm/mo_3d.hpp)
 
 ## 幾何
 
@@ -110,6 +105,11 @@
 - [上位K個の和](src/data_structure/top_k_sum.hpp)
 - [mex管理](src/data_structure/range_mex_set.hpp)
 - [グリッド操作](src/algorithm/grid.hpp)
+- [Monge最短路](src/algorithm/larsch.hpp)
+- [Min Plus Convolution](src/algorithm/min_plus_convolution.hpp)
+- [Concaveなmin plus](src/algorithm/min_plus_concave.hpp)
+- [Rollback Mo](src/algorithm/rollback_mo.hpp)
+- [3次元Mo](src/algorithm/mo_3d.hpp)
 
 ## ヒューリスティック
 
