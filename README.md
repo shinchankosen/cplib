@@ -94,6 +94,9 @@
 - [ローリングハッシュ](src/string/rolling_hash.hpp)
 - [Z-algorithm](src/string/z_algorithm.hpp)
 - [最長共通部分列](src/string/lcs_bitset.hpp)
+- [KMP法](src/string/kmp.hpp)
+- [Manacher](src/string/manacher.hpp)
+- [Trie](src/string/trie.hpp)
 
 ## その他
 
