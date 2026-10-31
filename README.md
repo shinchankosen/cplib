@@ -83,6 +83,11 @@
 - [分数](src/math/fraction.hpp)
 - [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
 - [Min of Mod of Linear](src/math/min_of_mod_of_linear.hpp)
+- [Monge最短路](src/algorithm/larsch.hpp)
+- [Min Plus Convolution](src/algorithm/min_plus_convolution.hpp)
+- [Concaveなmin plus](src/algorithm/min_plus_concave.hpp)
+- [Rollback Mo](src/algorithm/rollback_mo.hpp)
+- [3次元Mo](src/algorithm/mo_3d.hpp)
 
 ## 幾何
 
