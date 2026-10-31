@@ -1,5 +1,5 @@
 // https://github.com/shinchankosen/cplib/blob/main/src/math/rho.hpp
-// depends on src/math/modpow128.hpp, src/math/primality.hpp
+// depends on src/math/primality.hpp
 ll find_prime_factor(ll N) {
     using i128 = __int128_t;
     if(N % 2 == 0) { return 2; }

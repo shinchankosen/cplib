@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/src/graph/ushi_game.hpp
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/ushi.hpp
 // depends on src/graph/dijkstra.hpp
 vector<ll> USHI(ll n, vector<tuple<ll, ll, ll>> edges, ll s) {
     // v : x_i - x_j <= M

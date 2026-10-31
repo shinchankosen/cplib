@@ -39,7 +39,7 @@
 - [重心分解](src/graph/tree/centroid_decomposition.hpp)
 - [木の直径・中心](src/graph/tree/diameter_center.hpp)
 - [ダブリング・最小共通祖先](src/graph/tree/doubling_lca.hpp)
-- [パス・部分木クエリ](src/graph/tree/path_subtree_sum.hpp)
+- [パス・部分木クエリ](src/graph/tree/hld.hpp)
 - [Low Link](src/graph/low_link.hpp)
 - [二重辺連結成分分解](src/graph/two_edge_connected_components.hpp)
 - [オイラー路](src/graph/eulerian_trail.hpp)
@@ -65,7 +65,6 @@
 - [Bostan Mori](src/fps/bostan_mori.hpp)
 - [高速アダマール変換](src/math/fwt.hpp)
 - [Subset Convolution](src/math/subset_convolution.hpp)
-- [繰り返し二乗法(128bit)](src/math/modpow128.hpp)
 - [Binary GCD](src/math/binary_gcd.hpp)
 - [平方剰余](src/math/modsqrt.hpp)
 - [素数判定](src/math/primality.hpp)
@@ -101,7 +100,7 @@
 ## その他
 
 - [Mo-algorithm](src/algorithm/mo.hpp)
-- [牛ゲー](src/graph/ushi_game.hpp)
+- [牛ゲー](src/graph/ushi.hpp)
 - [上位K個の和](src/data_structure/top_k_sum.hpp)
 - [mex管理](src/data_structure/range_mex_set.hpp)
 - [グリッド操作](src/algorithm/grid.hpp)

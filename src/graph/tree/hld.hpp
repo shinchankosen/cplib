@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/src/graph/tree/path_subtree_sum.hpp
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/tree/hld.hpp
 class HLDcomposition {
     private:
     int V;

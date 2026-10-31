@@ -1,5 +1,14 @@
 // https://github.com/shinchankosen/cplib/blob/main/src/math/primality.hpp
-// depends on src/math/modpow128.hpp
+long long modpow128(long long a, long long n, long long MOD) {
+    __int128_t res = 1, mul = a % MOD;
+    while(n > 0) {
+        if(n & 1) res = res * mul % MOD;
+        mul = mul * mul % MOD;
+        n >>= 1;
+    }
+    return (long long)res;
+}
+
 bool is_prime(ll N) {
     if(N == 2) return true;
     if(N == 1 || N % 2 == 0) return false;
