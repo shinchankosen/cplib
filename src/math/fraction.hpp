@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/gomi/Fraction.cpp
+// https://github.com/shinchankosen/cplib/blob/main/src/math/fraction.hpp
 struct Fraction {
     long long x, y;
     void reduc() {

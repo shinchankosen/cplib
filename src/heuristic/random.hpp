@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/heuristic/random.cpp
+// https://github.com/shinchankosen/cplib/blob/main/src/heuristic/random.hpp
 class random_devicer {
 	int seed;
 	std::mt19937 engine;

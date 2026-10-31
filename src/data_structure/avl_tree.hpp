@@ -1,17 +1,6 @@
-// https://github.com/shinchankosen/cplib/blob/main/gomi/AVL.cpp
+// https://github.com/shinchankosen/cplib/blob/main/src/data_structure/avl_tree.hpp
 // verified in : https://techful-programming.com/user/skill/problem/coding/12549
 // base : https://tubo28.me/compprog/algorithm/avl_tree/
-
-#include <bits/stdc++.h>
-
-#define be(v) (v).begin(),(v).end()
-#define pb(q) push_back(q)
-#define rep(i, n) for(int i=0;i<n;i++)
-#define all(i, v) for(auto& i : v)
-typedef long long ll;
-using namespace std;
-const ll mod=1000000007, INF=(1LL<<60);
-#define doublecout(a) cout<<fixed<<setprecision(10)<<a<<endl;
 
 using key_type = int;
 
@@ -204,73 +193,4 @@ np build(Iterator left, Iterator right, Iterator1 left1, Iterator1 right1) {
     np m = new avl_node(*mid, *mid1);
     m->ch = {{l, r}};
     return update(m);
-}
-
-
-
-int main() {
-    cin.tie(0);
-    cout.tie(0);
-    ios::sync_with_stdio(false); 
-    ll n, q;
-    cin >> n >> q;
-    string s;
-    cin >> s;
-    map<char, int> mp;
-    mp['A'] = 0;
-    mp['C'] = 1;
-    mp['G'] = 2;
-    mp['T'] = 3;
-
-    vector<vector<ll>> cnt(4, vector<ll> (n, 0));
-    vector<vector<int>> ord(4, vector<int> (n, 0));
-    rep(i, n) {
-        cnt[mp[s[i]]][i] ++;
-        rep(j, 4) ord[j][i] = j * n + i;
-    }
-
-    vector<np> root(4);
-    rep(i, 4) root[i] = build(be(cnt[i]), be(ord[i]));
-
-    // 前からa個、後ろからb個
-    auto split3 = [&](np r, int a, int b) -> tuple<np, np, np>{
-        auto [le, mr] = split_at(r, a);
-        auto [mid, ri] = split_at(mr, n - a - b);
-        return {le, mid, ri};
-    };
-    auto merge3 = [&](np a, np b, np c) {
-        return merge(merge(a, b), c);
-    };
-
-    int key_id = n * 4;
-    rep(i, q) {
-        ll t, a, b;
-        char c;
-        cin >> t;
-        if(t == 1) {
-            cin >> a >> b;
-            rep(j, 4) {
-                auto [x, y, z] = split3(root[j], b, a);
-                root[j] = merge3(x, z, y);
-            }
-        } else if(t == 2) {
-            cin >> a >> c;
-            ll idx = mp[c];
-            rep(j, 4) {
-                auto [x, y, z] = split3(root[j], a, 1);
-                vector<ll> tmp(1, 0), tt(1, key_id++);
-                if(idx == j) tmp[0] = 1;
-                auto tmpr = build(be(tmp), be(tt));
-                root[j] = merge3(x, tmpr, y);
-            }
-        } else {
-            cin >> a >> b >> c;
-            a--;
-            ll idx = mp[c];
-            auto [x, y, z] = split3(root[idx], a, n - b);
-            cout << y->sum << endl;
-            root[idx] = merge3(x, y, z);
-        }
-    }
-    return 0; 
 }

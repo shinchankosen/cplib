@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/gomi/negative_vector.cpp
+// https://github.com/shinchankosen/cplib/blob/main/src/data_structure/negative_vector.hpp
 struct nev {
 private:
     long long a;
