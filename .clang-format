@@ -1,0 +1,22 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 0
+AccessModifierOffset: -4
+NamespaceIndentation: All
+LineEnding: LF
+SortIncludes: false
+DerivePointerAlignment: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortLambdasOnASingleLine: All
+AllowShortEnumsOnASingleLine: true
+KeepEmptyLines:
+  AtStartOfFile: false
+MaxEmptyLinesToKeep: 2
+SpaceBeforeParens: Never
+InsertNewlineAtEOF: true
