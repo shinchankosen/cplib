@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/modint.cpp
 template<int MOD> struct Modint {
     long long val;
     constexpr Modint(long long v = 0) noexcept : val(v % MOD) { if (val < 0) val += MOD; }

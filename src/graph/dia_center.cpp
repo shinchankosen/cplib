@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/dia_center.cpp
 pair<int, int> dia_center(vector<vector<int>> &v) {
     int d = 0, id = 0;
     auto dfs1 = [&](auto& dfs1, int now, int count, int p) -> void{

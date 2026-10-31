@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/string/RollingHash.cpp
 struct RollingHash {
     static const int base1 = 1007, base2 = 2009;
     static const int mod1 = 1000000007, mod2 = 1000000009;

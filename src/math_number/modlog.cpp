@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/modlog.cpp
 // depends on modpow and modinv
 // a^x ≡ b (mod. m) となる最小の正の整数 x を求める
 long long modlog(long long a, long long b, int m) {

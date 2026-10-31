@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/binary_tree/lazy_segtree.cpp
 template<class S, S (*op)(S, S), S (*e)(), class F, S (*mapping)(F, S), F (*composition)(F, F), F (*id)()>
 struct lazy_segtree {
    public:

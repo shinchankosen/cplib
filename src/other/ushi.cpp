@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/other/ushi.cpp
 // depends on dijkstra
 vector<ll> USHI(ll n, vector<tuple<ll, ll, ll>> edges, ll s) {
     // v : x_i - x_j <= M

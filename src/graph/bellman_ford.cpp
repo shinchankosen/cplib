@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/bellman_ford.cpp
 //bellman_ford
 template <typename T>
 std::vector<long long> bellman_ford(T &G, int start, int lim = -1){

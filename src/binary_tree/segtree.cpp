@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/binary_tree/segtree.cpp
 template<class S, S (*op)(S, S), S (*e)()> struct segtree {
     public:
     explicit segtree(int n) : segtree(vector<S>(n, e())) {}

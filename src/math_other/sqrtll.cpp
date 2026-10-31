@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_other/sqrtll.cpp
 // floor(sqrt(n))
 long long sqrtll(long long n) { 
     // 3037000500 = ceil(sqrt(2^63))

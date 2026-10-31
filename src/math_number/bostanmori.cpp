@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/bostanmori.cpp
 // Bostan-Mori
 // find [x^N] P(x)/Q(x), O(K log K log N)
 // deg(Q(x)) = K, deg(P(x)) < K, Q[0] = 1

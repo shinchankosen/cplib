@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/binary_tree/binary_trie.cpp
 using ar = array<int, 3>;
 ar base = {-1, -1, 0};
 template <class T> struct Btrie {

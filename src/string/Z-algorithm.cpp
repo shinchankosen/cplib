@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/string/Z-algorithm.cpp
 template <typename Type> vector<int> z_algo(Type S){
     int n = S.size();
     vector<int> Z(n);

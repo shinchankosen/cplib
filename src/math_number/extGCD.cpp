@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/extGCD.cpp
 long long extGCD(long long a, long long b, long long &x, long long &y) {
     if (b == 0) {
         x = 1;

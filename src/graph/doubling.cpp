@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/doubling.cpp
 struct Doubling {
 private:
     static constexpr int max_bit = 20;

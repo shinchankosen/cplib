@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_other/ruisekiwa-zeta/ruisekiwa_zeta.cpp
 template<class T>
 struct Rui {
     int dim;

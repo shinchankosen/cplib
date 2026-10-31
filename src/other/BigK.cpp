@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/other/BigK.cpp
 template<class T> struct BigK {
     int k; // size
     T sum_big, sum_sml;

@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/FZT_subsetconv.cpp
 template <typename T> void fzt(vector<T>& f) {
     int n = f.size();
     for (int i = 1; i < n; i <<= 1) {

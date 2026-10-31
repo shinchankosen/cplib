@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/string/LCS_alphabet.cpp
 // https://rian.hatenablog.jp/entry/2024/07/14/215634
 
 vector<uint64_t> _lcs(const string &s, const string &t) {

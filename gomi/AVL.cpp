@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/gomi/AVL.cpp
 // verified in : https://techful-programming.com/user/skill/problem/coding/12549
 // base : https://tubo28.me/compprog/algorithm/avl_tree/
 

@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/gomi/path_subtree_sum.cpp
 #include <bits/stdc++.h>
 using namespace std;
 

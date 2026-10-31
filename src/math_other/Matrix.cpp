@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_other/Matrix.cpp
 namespace matrix {
     template <typename T>
     struct OperatorPropertyDefault {

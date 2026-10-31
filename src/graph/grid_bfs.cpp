@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/grid_bfs.cpp
     vector dis(h * w, INF);
     auto bfs = [&] (int sty, int stx) -> void {
         dis[sty * w + stx] = 0;

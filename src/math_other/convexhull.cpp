@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_other/convexhull.cpp
 ll cross(ll x1, ll y1, ll x2, ll y2) {return x1 * y2 - x2 * y1;}
 using P = pair<ll, ll>;
 vector<P> ConvexHull(vector<P> ps) {

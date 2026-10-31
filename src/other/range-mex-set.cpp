@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/other/range-mex-set.cpp
 struct range_mex_set {
     std::set<std::pair<long long, long long>> st;
     range_mex_set() {

@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/dijkstra.cpp
 template <typename T>
 vector<ll> dijkstra(T &G, int start){
     // T -> vector<vector<pair<ll, int or ll>>> 

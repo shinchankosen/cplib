@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/other/mo-algorithm.cpp
 struct Mo {
     int n;
     vector< pair< int, int > > lr;

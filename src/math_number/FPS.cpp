@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/FPS.cpp
 template <typename mint> struct FPS : std::vector<mint> {
     using std::vector<mint>::vector;
  

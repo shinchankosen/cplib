@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/NTT_convolution.cpp
 long long modinv(long long a, long long MOD) {
     long long b = MOD, u = 1, v = 0;
     while (b) {

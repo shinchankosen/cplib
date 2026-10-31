@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/other/grid.cpp
 template<class T> std::vector<T> transpose(const std::vector<T> &v) {
     int n = v.size();
     if(n == 0) return v;

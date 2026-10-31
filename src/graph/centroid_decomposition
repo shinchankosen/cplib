@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/centroid_decomposition
 pair<int, vector<vector<int>>> centroid(vector<vector<int>> &v) {
     int n = v.size(), r = -1;
     vector used(n, 0), sz(n, 0);

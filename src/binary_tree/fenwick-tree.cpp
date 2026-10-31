@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/binary_tree/fenwick-tree.cpp
 template <class T> struct BIT {
     int n;
     vector<T> a;

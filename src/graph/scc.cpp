@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/scc.cpp
 class SCC{
 private:
     vector<vector<int> > gg, rg;

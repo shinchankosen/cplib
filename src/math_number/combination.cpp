@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/combination.cpp
 // depends on modint
 
 namespace comb {

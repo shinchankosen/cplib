@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/graph/union-find.cpp
 struct UnionFind {
     vector<int> par;
     UnionFind(int n) :par(n, -1) { }

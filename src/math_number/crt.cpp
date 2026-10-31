@@ -1,3 +1,4 @@
+// https://github.com/shinchankosen/cplib/blob/main/src/math_number/crt.cpp
 constexpr long long safe_mod(long long x, long long m) {
     x %= m;
     if (x < 0) x += m;
