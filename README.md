@@ -65,6 +65,14 @@
 - [Bostan Mori](src/fps/bostan_mori.hpp)
 - [高速アダマール変換](src/math/fwt.hpp)
 - [Subset Convolution](src/math/subset_convolution.hpp)
+- [繰り返し二乗法(128bit)](src/math/modpow128.hpp)
+- [Binary GCD](src/math/binary_gcd.hpp)
+- [平方剰余](src/math/modsqrt.hpp)
+- [素数判定](src/math/primality.hpp)
+- [原始根](src/math/primitive_root.hpp)
+- [素因数分解](src/math/rho.hpp)
+- [Barrett Reduction](src/math/barrett_reduction.hpp)
+- [Relaxed Convolution](src/fps/relaxed_convolution.hpp)
 
 ## その他の数学
 
@@ -74,6 +82,7 @@
 - [整数平方根](src/math/sqrtll.hpp)
 - [分数](src/math/fraction.hpp)
 - [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
+- [Min of Mod of Linear](src/math/min_of_mod_of_linear.hpp)
 
 ## 文字列
 
