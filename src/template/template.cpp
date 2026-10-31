@@ -1,6 +1,7 @@
-// https://github.com/shinchankosen/cplib/blob/main/src/template/template.cpp
 #include <bits/stdc++.h>
 using namespace std;
+
+// library: https://github.com/shinchankosen/cplib
 
 #define all(v) (v).begin(),(v).end()
 #define pb emplace_back
