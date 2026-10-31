@@ -1,6 +1,7 @@
 ## テンプレート
 
 - [テンプレート](src/template/template.cpp)
+- [構造体テンプレート](src/template/struct_template.cpp)
 
 ## 二分木・データ構造
 
@@ -9,6 +10,8 @@
 - [動的二次元セグメント木](src/data_structure/dynamic_segtree_2d.hpp)
 - [Fenwick木](src/data_structure/fenwick_tree.hpp)
 - [Binary Trie](src/data_structure/binary_trie.hpp)
+- [AVL木](src/data_structure/avl_tree.hpp)
+- [負の添字を扱える配列](src/data_structure/negative_vector.hpp)
 
 ## グラフ
 
@@ -21,6 +24,7 @@
 - [重心分解](src/graph/tree/centroid_decomposition.hpp)
 - [木の直径・中心](src/graph/tree/diameter_center.hpp)
 - [ダブリング・最小共通祖先](src/graph/tree/doubling_lca.hpp)
+- [パス・部分木クエリ](src/graph/tree/path_subtree_sum.hpp)
 
 ## 数論・畳み込み
 
@@ -42,6 +46,7 @@
 - [凸包](src/geometry/convex_hull.hpp)
 - [Floor Sum](src/math/floor_sum.hpp)
 - [整数平方根](src/math/sqrtll.hpp)
+- [分数](src/math/fraction.hpp)
 - [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
 
 ## 文字列
@@ -57,6 +62,10 @@
 - [上位K個の和](src/data_structure/top_k_sum.hpp)
 - [mex管理](src/data_structure/range_mex_set.hpp)
 - [グリッド操作](src/algorithm/grid.hpp)
+
+## ヒューリスティック
+
+- [乱数](src/heuristic/random.hpp)
 
 ## メモ
 
