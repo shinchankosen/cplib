@@ -1,7 +1,7 @@
 // https://github.com/shinchankosen/cplib/blob/main/src/data_structure/lazy_segtree.hpp
 template<class S, S (*op)(S, S), S (*e)(), class F, S (*mapping)(F, S), F (*composition)(F, F), F (*id)()>
 struct lazy_segtree {
-   public:
+    public:
     explicit lazy_segtree(int n) : lazy_segtree(vector<S>(n, e())) {}
     explicit lazy_segtree(const vector<S>& v) : _n(int(v.size())) {
         size = 1;

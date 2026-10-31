@@ -33,7 +33,7 @@ template<class S, S (*op)(S, S), S (*e)()> struct segtree {
         return op(sml, smr);
     }
 
-   S all_prod() const { return d[1]; }
+    S all_prod() const { return d[1]; }
 
     template<class F> int max_right(int l, F f) {
         if(l == _n) return _n;
