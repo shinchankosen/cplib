@@ -4,61 +4,61 @@
 
 ## 二分木・データ構造
 
-- [セグメント木](src/binary_tree/segtree.cpp)
-- [遅延セグメント木](src/binary_tree/lazy_segtree.cpp)
-- [動的二次元セグメント木](src/binary_tree/dynamic_2Dsegtree.cpp)
-- [Fenwick木](src/binary_tree/fenwick-tree.cpp)
-- [Binary Trie](src/binary_tree/binary_trie.cpp)
+- [セグメント木](src/data_structure/segtree.hpp)
+- [遅延セグメント木](src/data_structure/lazy_segtree.hpp)
+- [動的二次元セグメント木](src/data_structure/dynamic_segtree_2d.hpp)
+- [Fenwick木](src/data_structure/fenwick_tree.hpp)
+- [Binary Trie](src/data_structure/binary_trie.hpp)
 
 ## グラフ
 
-- [ダイクストラ法](src/graph/dijkstra.cpp)
-- [ベルマンフォード法](src/graph/bellman_ford.cpp)
-- [グリッド上の幅優先探索](src/graph/grid_bfs.cpp)
-- [トポロジカルソート](src/graph/topological_sort.cpp)
-- [強連結成分分解](src/graph/scc.cpp)
-- [Union-Find](src/graph/union-find.cpp)
-- [重心分解](src/graph/centroid_decomposition)
-- [木の直径・中心](src/graph/dia_center.cpp)
-- [ダブリング・最小共通祖先](src/graph/doubling.cpp)
+- [ダイクストラ法](src/graph/dijkstra.hpp)
+- [ベルマンフォード法](src/graph/bellman_ford.hpp)
+- [グリッド上の幅優先探索](src/graph/grid_bfs.hpp)
+- [トポロジカルソート](src/graph/topological_sort.hpp)
+- [強連結成分分解](src/graph/scc.hpp)
+- [Union-Find](src/data_structure/union_find.hpp)
+- [重心分解](src/graph/tree/centroid_decomposition.hpp)
+- [木の直径・中心](src/graph/tree/diameter_center.hpp)
+- [ダブリング・最小共通祖先](src/graph/tree/doubling_lca.hpp)
 
 ## 数論・畳み込み
 
-- [Modint](src/math_number/modint.cpp)
-- [繰り返し二乗法・剰余逆元](src/math_number/modpow_modinv.cpp)
-- [離散対数](src/math_number/modlog.cpp)
-- [二項係数](src/math_number/combination.cpp)
-- [拡張ユークリッドの互除法](src/math_number/extGCD.cpp)
-- [中国剰余定理](src/math_number/crt.cpp)
-- [畳み込み](src/math_number/NTT_convolution.cpp)
-- [形式的冪級数](src/math_number/FPS.cpp)
-- [Bostan Mori](src/math_number/bostanmori.cpp)
-- [高速アダマール変換](src/math_number/FWT.cpp)
-- [Subset Convolution](src/math_number/FZT_subsetconv.cpp)
+- [Modint](src/math/modint.hpp)
+- [繰り返し二乗法・剰余逆元](src/math/modpow_modinv.hpp)
+- [離散対数](src/math/modlog.hpp)
+- [二項係数](src/math/combination.hpp)
+- [拡張ユークリッドの互除法](src/math/ext_gcd.hpp)
+- [中国剰余定理](src/math/crt.hpp)
+- [畳み込み](src/fps/ntt_convolution.hpp)
+- [形式的冪級数](src/fps/fps.hpp)
+- [Bostan Mori](src/fps/bostan_mori.hpp)
+- [高速アダマール変換](src/math/fwt.hpp)
+- [Subset Convolution](src/math/subset_convolution.hpp)
 
 ## その他の数学
 
-- [行列](src/math_other/Matrix.cpp)
-- [凸包](src/math_other/convexhull.cpp)
-- [Floor Sum](src/math_other/floor_sum.cpp)
-- [整数平方根](src/math_other/sqrtll.cpp)
-- [多次元累積和](src/math_other/ruisekiwa-zeta/ruisekiwa_zeta.cpp)
+- [行列](src/math/matrix.hpp)
+- [凸包](src/geometry/convex_hull.hpp)
+- [Floor Sum](src/math/floor_sum.hpp)
+- [整数平方根](src/math/sqrtll.hpp)
+- [多次元累積和](src/data_structure/prefix_sum_nd.hpp)
 
 ## 文字列
 
-- [ローリングハッシュ](src/string/RollingHash.cpp)
-- [Z-algorithm](src/string/Z-algorithm.cpp)
-- [最長共通部分列](src/string/LCS_alphabet.cpp)
+- [ローリングハッシュ](src/string/rolling_hash.hpp)
+- [Z-algorithm](src/string/z_algorithm.hpp)
+- [最長共通部分列](src/string/lcs_bitset.hpp)
 
 ## その他
 
-- [Mo-algorithm](src/other/mo-algorithm.cpp)
-- [牛ゲー](src/other/ushi.cpp)
-- [上位K個の和](src/other/BigK.cpp)
-- [mex管理](src/other/range-mex-set.cpp)
-- [グリッド操作](src/other/grid.cpp)
+- [Mo-algorithm](src/algorithm/mo.hpp)
+- [牛ゲー](src/graph/ushi_game.hpp)
+- [上位K個の和](src/data_structure/top_k_sum.hpp)
+- [mex管理](src/data_structure/range_mex_set.hpp)
+- [グリッド操作](src/algorithm/grid.hpp)
 
 ## メモ
 
-- [QCFium法](src/memo/qcfium.cpp)
+- [QCFium法](src/memo/qcfium.hpp)
 - [segmentation fault対処](src/memo/when_segmentation_fault.txt)
