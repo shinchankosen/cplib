@@ -12,6 +12,21 @@
 - [Binary Trie](src/data_structure/binary_trie.hpp)
 - [AVL木](src/data_structure/avl_tree.hpp)
 - [負の添字を扱える配列](src/data_structure/negative_vector.hpp)
+- [Disjoint Sparse Table](src/data_structure/disjoint_sparse_table.hpp)
+- [Li Chao木](src/data_structure/li_chao_tree.hpp)
+- [傾き単調のConvex Hull Trick](src/data_structure/cht_slope_monotone.hpp)
+- [Undo可能Union-Find](src/data_structure/undo_dsu.hpp)
+- [ポテンシャル付きUnion-Find](src/data_structure/potential_dsu.hpp)
+- [Wavelet Matrix](src/data_structure/wavelet_matrix.hpp)
+- [Range Tree](src/data_structure/range_tree.hpp)
+- [Segment Tree Beats](src/data_structure/segtree_beats.hpp)
+- [Segment Tree Beatsの解説](src/data_structure/segtree_beats.md)
+- [64分木](src/data_structure/tree_64.hpp)
+- [Treap](src/data_structure/treap.hpp)
+- [永続AVL木](src/data_structure/persistent_avl.hpp)
+- [永続配列](src/data_structure/persistent_array.hpp)
+- [永続セグメント木](src/data_structure/persistent_segtree.hpp)
+- [永続Union-Find](src/data_structure/persistent_union_find.hpp)
 
 ## グラフ
 
