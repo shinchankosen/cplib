@@ -119,3 +119,8 @@
 
 - [QCFium法](src/memo/qcfium.hpp)
 - [segmentation fault対処](src/memo/when_segmentation_fault.txt)
+- [pb_ds](src/memo/ext.hpp)
+- [素数](src/memo/primes.md)
+- [多倍長整数](src/memo/bigint.md)
+- [setの比較関数](src/memo/set_compare.md)
+
