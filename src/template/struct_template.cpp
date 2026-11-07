@@ -1,4 +1,4 @@
-// https://github.com/shinchankosen/cplib/blob/main/gomi/struct_template.cpp
+// https://github.com/shinchankosen/cplib/blob/main/src/template/struct_template.cpp
 struct node {
     int x, y;
     bool operator<( const node& right ) const {
